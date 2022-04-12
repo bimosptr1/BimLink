@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', sans-serif;
+}
+
+.Containerx {
+  background-image: url("./img/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.modal-content {
+  padding: 25px;
+}
+
+.inputForm {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.inputControl {
+  background: rgba(210, 210, 210, 0.25);
+  height: 50px;
+}
+
+.head {
+  padding-top: 90px;
+}
+
+h1.hland {
+  color: whitesmoke;
+  font-size: 72px;
+  line-height: 98px;
+}
+
+p.pland {
+  color: whitesmoke;
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 30px;
+}
+
+button.navbut {
+  border-radius: 20px;
+  margin-right: 50px;
+}
+
+.flex-column {
+  font-size: 24px;
+}
+
+.flex-column .nav-link {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.bgContent {
+  background-color: #E5E5E5;
+}
+
+.titleContent {
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.inputUnderline {
+  background: linear-gradient(gray, gray) center bottom 5px /calc(100% - 10px) 1px no-repeat;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-clip: padding-box;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: orange;
+  padding: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
